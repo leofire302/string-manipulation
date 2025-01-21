@@ -1,0 +1,15 @@
+s=input("Enter the string")
+new_str=""
+for ch in s:
+
+if ch.isupper():
+new_str=new_str+ch.lower()
+elif ch.islower():
+new_str=new_str+ch.upper()
+else:
+new_str=new_str+ch
+
+print("String after converting the case of characters",new_str)
+Output2
+Enter the string Python Programming
+String after converting the case of characters pYTHON pROGRAMMING
