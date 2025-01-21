@@ -1,0 +1,29 @@
+str = input("Enter the string: ")
+vowelcount=0 consonantscount=0
+vowel ="aeiouAEIOU"
+
+for alphabet in str:
+if alphabet in vowel:
+vowelcount=vowelcount +1
+else:
+consonantscount=consonantscount+1
+
+print("Number of Vowels in ",str," is :",vowelcount)
+print("Number of Consonants in ",str," is :",consonantscount)
+
+uppercasecount=0
+lowercasecount=0
+for elements in str:
+if elements.isupper():
+uppercasecount +=1
+elif elements.islower():
+lowercasecount += 1
+print ("Number of UPPER Case in ",str,"' is :",uppercasecount)
+
+print ("Number of lower case in ",str,"' is :",lowercasecount)
+Output
+Enter the string: HiGoodMorning
+Number of Vowels in HiGoodMorning is : 5
+Number of Consonants in HiGoodMorning is : 8
+Number of UPPER Case in HiGoodMorning is : 3
+Number of lower case in HiGoodMorning is : 10
