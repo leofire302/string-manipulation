@@ -1,0 +1,6 @@
+
+message=input("Enter welcome message : ")
+print("Hello, ",message)
+OUTPUT
+Enter welcome message: How are you
+Hello, How are You
