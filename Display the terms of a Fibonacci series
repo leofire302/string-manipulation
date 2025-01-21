@@ -1,0 +1,18 @@
+n =int(input("Enter the limit of Fibonacci series"))
+num1=0
+num2=1
+print(num1,num2,end=" ")
+next_number=num2
+count=3
+while count <= n:
+print(next_number, end=" ")
+count=count +1
+num1, num2 = num2, next_number
+next_number = num1 + num2
+print()
+OUTPUT-1
+Enter the limit of Fibonacci series5
+0 1 1 2 3
+OUTPUT-2
+Enter the limit of Fibonacci series 10
+0 1 1 2 3 5 8 13 21 34
