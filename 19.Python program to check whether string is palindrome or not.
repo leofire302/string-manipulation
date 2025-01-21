@@ -1,0 +1,11 @@
+string=input("Enter string:")
+if(string==string[::-1]):
+print("The string is a palindrome")
+else:
+print("The string is not a palindrome")
+Output1
+Enter string: DAD
+The string is a palindrome
+Output2
+Enter string: Karnataka
+The string is not a palindrome
