@@ -1,0 +1,25 @@
+num=int(input("Enter the Number"))
+s=num
+digit=len(str(num))
+sum1 = 0
+while num!=0:
+r = num%10
+sum1=sum1+(r**digit)
+num=num//10
+if s == sum1:
+print("The given number", s, "is Armstrong number")
+else:
+print("The given number", s, "is not Armstrong number")
+OUTPUT-1
+Enter the Number153
+The given number 153 is Armstrong number
+OUTPUT-2
+Enter the Number28
+The given number 28 is not Armstrong number
+OUTPUT-1
+Enter a number: 121
+
+The number is palindrome!
+OUTPUT-2
+Enter a number: 123
+Not a palindrome!
